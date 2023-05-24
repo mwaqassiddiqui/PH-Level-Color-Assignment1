@@ -3,12 +3,23 @@
   background-color: #babab6; 
 }
 h1 {
-color: rgb(104, 105, 95);
-font-family: Arial; San Serif; 
-padding: 12px;
-background-color: rgb(221,221,218);
+color:rgb(117, 14, 14);
+font-family: Arial; San Serif;
+font-size: 60;  
+padding: inherit;
+text-shadow: 2px 2px 5px black;
+background-color: #ece6e6;
+background-color: hsla(180, 14%, 77%, 0.767);
 text-align: center;
+border-radius: 40px;
+border-style: groove;
+border-color: rgb(69, 109, 150) rgb(202, 96, 96);
+border-width: 20px;
+}
 
+p
+{padding: 5px;
+margin: 0;
 }
 
 div {
