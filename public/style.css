@@ -1,0 +1,56 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .color-scale {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .color {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .color#acidic {
+    background-color: #ff4d4d;
+  }
+  
+  .color#neutral {
+    background-color: #cccccc;
+  }
+  
+  .color#alkaline {
+    background-color: #4d79ff;
+  }
+  
+  .color span.label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .color span.ph-value {
+    font-size: 18px;
+    color: #555;
+  }
+  
